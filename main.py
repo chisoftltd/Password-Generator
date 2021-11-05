@@ -29,7 +29,7 @@ print(password)
 random.shuffle(password)
 print(password)
 
-pwd = ''
+pwd = ""
 for char in password:
 	pwd += char
 print(f"Password is: {pwd}")
