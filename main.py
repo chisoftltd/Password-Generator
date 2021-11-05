@@ -22,6 +22,10 @@ for number in range(1, nr_numbers + 1):
 	password += random.choice(numbers)
 
 print(password)
+
+
+#Hard Level - Order of characters randomised:
+#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 random.shuffle(password)
 print(password)
 
@@ -29,5 +33,4 @@ pwd = ''
 for char in password:
 	pwd += char
 print(f"Password is: {pwd}")
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+
